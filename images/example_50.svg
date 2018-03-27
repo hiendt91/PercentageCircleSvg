@@ -17,3 +17,6 @@
      <text id="text-label" x="51%" y="51%" text-anchor="middle" fill="black"><tspan id="span-content" fill="black">50</tspan>%</text>
   </g>
 </svg>
+
+$svg = new PercentageCircleSvg(150, 70, 20, '#056322', 'green');
+print $svg->getSvg();
